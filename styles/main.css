@@ -254,7 +254,7 @@ button,
 .instagram::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f16d";
-  padding: 10%;
+  padding: 20%;
 
 }
 
@@ -270,6 +270,7 @@ button,
 
 .icon-list {
   align-items:center;
+  font-size: medium;
 }
 
 
@@ -277,4 +278,10 @@ button,
   align-items: center;
   padding-left: 30%;
   height: 60vh;
+}
+
+.whatsapp-icon::before {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 20%;
 }
