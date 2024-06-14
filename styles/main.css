@@ -164,8 +164,6 @@ h1,
   border-top: 2px solid black;
   border-radius: 0 25px 25px 0;
   padding: 0;
-  color: white;
-  background-color: black;
 }
 
 @media screen and (max-width: 576px) {
@@ -256,6 +254,8 @@ button,
 .instagram::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f16d";
+  padding: 10%;
+
 }
 
 .github::before {
@@ -281,4 +281,15 @@ button,
 .linkedin::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f08c";
+}
+
+.icon-list {
+  align-items:center;
+}
+
+
+.kalon-banner {
+  align-items: center;
+  padding-left: 30%;
+  height: 60vh;
 }
